@@ -19,4 +19,27 @@ Project Flow:-
 7. Model Comparison – Compare different models and choose the best one.
 8. Prediction – Predict blood pressure risk.
 9. Web Application – Create a simple interface for user input and prediction.
+
+## Prerequisites
+
+Before starting this project, the following tools and knowledge are required:
+
+### Programming Knowledge
+- Basic knowledge of Python
+- Basic understanding of Machine Learning
+
+### Tools Required
+- Python
+- Jupyter Notebook or Google Colab
+- Git and GitHub
+
+### Python Libraries
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Flask
+
+These prerequisites help in setting up the environment and running the project smoothly.
 9. Web Application – Create a simple interface for user input and prediction.
