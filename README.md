@@ -19,3 +19,4 @@ Project Flow:-
 7. Model Comparison – Compare different models and choose the best one.
 8. Prediction – Predict blood pressure risk.
 9. Web Application – Create a simple interface for user input and prediction.
+9. Web Application – Create a simple interface for user input and prediction.
