@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Pressure Prediction</title>
+<style>
 
+body{
+font-family: Arial;
+background:#f2f2f2;
+}
+
+.container{
+width:400px;
+margin:auto;
+margin-top:80px;
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+}
+
+.result{
+color:green;
+font-size:20px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Blood Pressure Prediction</h2>
+
+<form action="/predict" method="post">
+
+<input type="number" name="age" placeholder="Age" required>
+
+<input type="number" name="systolic" placeholder="Systolic BP" required>
+
+<input type="number" name="diastolic" placeholder="Diastolic BP" required>
+
+<input type="number" name="bmi" placeholder="BMI" required>
+
+<input type="number" name="heart_rate" placeholder="Heart Rate" required>
+
+<button type="submit">Predict</button>
+
+</form>
+
+<div class="result">
+{{ prediction_text }}
+</div>
+
+</div>
+
+</body>
+</html>
